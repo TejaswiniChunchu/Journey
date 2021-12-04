@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2627EE72275B3A0D0031CBE1 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627EE71275B3A0D0031CBE1 /* PostsViewController.swift */; };
 		26571E0A2758C10800B579D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E092758C10800B579D5 /* AppDelegate.swift */; };
-		26571E0C2758C10800B579D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E0B2758C10800B579D5 /* ViewController.swift */; };
 		26571E0F2758C10800B579D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26571E0D2758C10800B579D5 /* Main.storyboard */; };
 		26571E122758C10800B579D5 /* Journey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26571E102758C10800B579D5 /* Journey.xcdatamodeld */; };
 		26571E142758C10B00B579D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26571E132758C10B00B579D5 /* Assets.xcassets */; };
 		26571E172758C10B00B579D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26571E152758C10B00B579D5 /* LaunchScreen.storyboard */; };
 		26571E222758C10C00B579D5 /* JourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E212758C10C00B579D5 /* JourneyTests.swift */; };
 		26571E2D2758C10C00B579D5 /* JourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E2C2758C10C00B579D5 /* JourneyUITests.swift */; };
+		26571E3D2759E2AC00B579D5 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E3C2759E2AC00B579D5 /* CommentsViewController.swift */; };
+		26571E3F2759F4FC00B579D5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E3E2759F4FC00B579D5 /* PostTableViewCell.swift */; };
+		26571E412759FE5400B579D5 /* posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E402759FE5400B579D5 /* posts.swift */; };
+		26571E43275A22F000B579D5 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571E42275A22F000B579D5 /* CommentsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2627EE71275B3A0D0031CBE1 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		26571E062758C10800B579D5 /* Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26571E092758C10800B579D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26571E0B2758C10800B579D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26571E0E2758C10800B579D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26571E112758C10800B579D5 /* Journey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Journey.xcdatamodel; sourceTree = "<group>"; };
 		26571E132758C10B00B579D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		26571E282758C10C00B579D5 /* JourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26571E2C2758C10C00B579D5 /* JourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyUITests.swift; sourceTree = "<group>"; };
 		26571E2E2758C10C00B579D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26571E3C2759E2AC00B579D5 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		26571E3E2759F4FC00B579D5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		26571E402759FE5400B579D5 /* posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posts.swift; sourceTree = "<group>"; };
+		26571E42275A22F000B579D5 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				26571E092758C10800B579D5 /* AppDelegate.swift */,
-				26571E0B2758C10800B579D5 /* ViewController.swift */,
+				2627EE71275B3A0D0031CBE1 /* PostsViewController.swift */,
+				26571E3E2759F4FC00B579D5 /* PostTableViewCell.swift */,
+				26571E3C2759E2AC00B579D5 /* CommentsViewController.swift */,
+				26571E42275A22F000B579D5 /* CommentsTableViewCell.swift */,
+				26571E402759FE5400B579D5 /* posts.swift */,
 				26571E0D2758C10800B579D5 /* Main.storyboard */,
 				26571E132758C10B00B579D5 /* Assets.xcassets */,
 				26571E152758C10B00B579D5 /* LaunchScreen.storyboard */,
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26571E0C2758C10800B579D5 /* ViewController.swift in Sources */,
+				26571E3D2759E2AC00B579D5 /* CommentsViewController.swift in Sources */,
+				26571E3F2759F4FC00B579D5 /* PostTableViewCell.swift in Sources */,
 				26571E122758C10800B579D5 /* Journey.xcdatamodeld in Sources */,
+				2627EE72275B3A0D0031CBE1 /* PostsViewController.swift in Sources */,
+				26571E43275A22F000B579D5 /* CommentsTableViewCell.swift in Sources */,
 				26571E0A2758C10800B579D5 /* AppDelegate.swift in Sources */,
+				26571E412759FE5400B579D5 /* posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
